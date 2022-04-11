@@ -120,13 +120,19 @@ button {
     padding: .75rem;
     border-radius: 10px;
     border: none;
-    background-color: rgb(200, 200, 200);
+    background-color: rgba(24, 101, 24,1);
+    color: white;
     text-transform: uppercase;
     margin: 2rem 0 .3rem 0;
 
 }
 
 button:hover {
-    background-color: rgb(150, 150,150);
+    background-color: rgba(24, 101, 24,.9);
     cursor: pointer;
+}
+
+
+p a {
+    color: rgba(24, 101, 24,.9);
 }
