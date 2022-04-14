@@ -136,10 +136,10 @@ p a {
     color: rgba(24, 101, 24,.9);
 }
 
-.match-error {
-    border-color: red;
+.match-error:focus {
+    outline-color: red;
 }
 
-.match-error::after {
-    content: "Passwords don't match";
+.match-error {
+    border: 1px solid red;
 }
